@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Form from './form';
+import Form from './../Form/Form';
 
 class Add extends Component {
   render() {
@@ -7,7 +7,7 @@ class Add extends Component {
       <div className="App">
         <h1>Add Function</h1>
         <p>I don't care</p>
-        <Form operator='+' />
+        <Form operator='-' />
       </div>
     );
   }

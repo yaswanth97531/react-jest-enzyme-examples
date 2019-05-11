@@ -1,4 +1,4 @@
-/* .App {
+.App {
   text-align: center;
 }
 
@@ -21,7 +21,7 @@
 
 .App-link {
   color: #61dafb;
-} */
+}
 
 @keyframes App-logo-spin {
   from {
@@ -147,4 +147,12 @@ textarea {
 
 .btn:focus {
   outline: 0;
+}
+
+hr {
+  height: 1px;
+  color: white;
+  background-color: white;
+  border: none;
+  width: 100%
 }

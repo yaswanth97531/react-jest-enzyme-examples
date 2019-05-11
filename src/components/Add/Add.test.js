@@ -1,5 +1,5 @@
 import Add from './Add';
-import Form from './Form';
+import Form from '../Form/Form';
 
 // function createTestProps(props) {
 //   return {
@@ -23,11 +23,11 @@ beforeEach(() => {
 
 describe('<Add /> rendering', () => {
   it('should render on <h1>', () => {
-    expect(wrapper.children('h1')).toHaveLength(1);
+    expect(wrapper.find('h1')).toHaveLength(1);
   });
 
   it('should render a <p>', () => {
-    expect(wrapper.children('p')).toHaveLength(1);
+    expect(wrapper.find('p')).toHaveLength(1);
   });
 
   it('should render one <Form>', () => {
