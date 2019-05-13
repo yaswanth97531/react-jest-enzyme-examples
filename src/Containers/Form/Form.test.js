@@ -85,6 +85,17 @@ describe('<Form /> interactions', () => {
     wrapper.find('#formButtonSubtract').props().onClick();
     expect(mockedHandleClickSubtract).toHaveBeenCalledTimes(1);
   });
+
+  it('should call the \'displayResult\' on calling handlers', () => {
+    // const spy = jest.spyOn(wrapper.instance(), 'handleAdd');
+    const spy = jest.spyOn(wrapper.instance(), 'displayResult');
+    // wrapper.instance().forceUpdate();
+    wrapper.instance().handleAdd();
+    wrapper.instance().handleSubtract();
+    expect(spy).toHaveBeenCalledTimes(2);
+    // wrapper.find('.number-key').first().simulate('click');
+    // expect(spy).toHaveBeenCalledTimes(1);
+  });
 });
 
 describe('<Form /> lifecycle method invocations', () => {

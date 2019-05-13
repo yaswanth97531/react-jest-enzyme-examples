@@ -1,0 +1,326 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> rendering should render correctly 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <div
+      className="App"
+    >
+      <h1>
+        Add Function
+      </h1>
+      <p>
+        I don't care
+      </p>
+      <form
+        className="form-group"
+      >
+        <fieldset
+          className="form-group"
+        >
+          <label
+            className="form-label"
+          >
+            1st Number:
+          </label>
+          <input
+            className="form-input"
+            id="number1"
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+        </fieldset>
+        <fieldset
+          className="form-group"
+        >
+          <label
+            className="form-label"
+          >
+            2nd Number:
+          </label>
+          <input
+            className="form-input"
+            id="number2"
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+        </fieldset>
+        <div
+          className="form-group"
+        >
+          <button
+            className="btn"
+            id="formButtonSubtract"
+            onClick={[Function]}
+            type="button"
+          >
+            Subtract
+          </button>
+        </div>
+      </form>
+    </div>
+    <hr />
+    <div>
+      <button
+        onClick={[Function]}
+      >
+        Add Counter
+      </button>
+      <ul>
+        <li>
+          <div>
+            <p>
+              Current count: 
+              0
+            </p>
+            <button
+              id="increment"
+              onClick={[Function]}
+            >
+              +++
+            </button>
+            <button
+              id="decrement"
+              onClick={[Function]}
+            >
+              ---
+            </button>
+          </div>
+        </li>
+        <li>
+          <div>
+            <p>
+              Current count: 
+              0
+            </p>
+            <button
+              id="increment"
+              onClick={[Function]}
+            >
+              +++
+            </button>
+            <button
+              id="decrement"
+              onClick={[Function]}
+            >
+              ---
+            </button>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <hr />
+    <span
+      id="empty-message"
+    >
+      No items in list
+    </span>
+    <hr />
+    <div
+      className="calculator-container"
+    >
+      <div
+        className="display-container"
+      >
+        <p
+          className="display-value"
+        >
+          0
+        </p>
+      </div>
+      <div
+        className="keypad-container"
+      >
+        <div
+          className="numbers-container"
+        >
+          <div
+            className="key-container number-key"
+            onClick={[Function]}
+          >
+            <p
+              className="key-value"
+            >
+              9
+            </p>
+          </div>
+          <div
+            className="key-container number-key"
+            onClick={[Function]}
+          >
+            <p
+              className="key-value"
+            >
+              8
+            </p>
+          </div>
+          <div
+            className="key-container number-key"
+            onClick={[Function]}
+          >
+            <p
+              className="key-value"
+            >
+              7
+            </p>
+          </div>
+          <div
+            className="key-container number-key"
+            onClick={[Function]}
+          >
+            <p
+              className="key-value"
+            >
+              6
+            </p>
+          </div>
+          <div
+            className="key-container number-key"
+            onClick={[Function]}
+          >
+            <p
+              className="key-value"
+            >
+              5
+            </p>
+          </div>
+          <div
+            className="key-container number-key"
+            onClick={[Function]}
+          >
+            <p
+              className="key-value"
+            >
+              4
+            </p>
+          </div>
+          <div
+            className="key-container number-key"
+            onClick={[Function]}
+          >
+            <p
+              className="key-value"
+            >
+              3
+            </p>
+          </div>
+          <div
+            className="key-container number-key"
+            onClick={[Function]}
+          >
+            <p
+              className="key-value"
+            >
+              2
+            </p>
+          </div>
+          <div
+            className="key-container number-key"
+            onClick={[Function]}
+          >
+            <p
+              className="key-value"
+            >
+              1
+            </p>
+          </div>
+          <div
+            className="key-container number-key"
+            onClick={[Function]}
+          >
+            <p
+              className="key-value"
+            >
+              .
+            </p>
+          </div>
+          <div
+            className="key-container number-key"
+            onClick={[Function]}
+          >
+            <p
+              className="key-value"
+            >
+              0
+            </p>
+          </div>
+          <div
+            className="key-container number-key"
+            onClick={[Function]}
+          >
+            <p
+              className="key-value"
+            >
+              ce
+            </p>
+          </div>
+        </div>
+        <div
+          className="operators-container"
+        >
+          <div
+            className="key-container operator-key"
+            onClick={[Function]}
+          >
+            <p
+              className="key-value"
+            >
+              /
+            </p>
+          </div>
+          <div
+            className="key-container operator-key"
+            onClick={[Function]}
+          >
+            <p
+              className="key-value"
+            >
+              X
+            </p>
+          </div>
+          <div
+            className="key-container operator-key"
+            onClick={[Function]}
+          >
+            <p
+              className="key-value"
+            >
+              -
+            </p>
+          </div>
+          <div
+            className="key-container operator-key"
+            onClick={[Function]}
+          >
+            <p
+              className="key-value"
+            >
+              +
+            </p>
+          </div>
+        </div>
+        <div
+          className="submit-container"
+        >
+          <div
+            className="key-container submit-key"
+            onClick={[Function]}
+          >
+            <p
+              className="key-value"
+            >
+              =
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+</div>
+`;

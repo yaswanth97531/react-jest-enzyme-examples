@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Counter from './../Counter/Counter.js';
-import PropTypes from 'prop-types';
 
 const createRange = num => Array.from(Array(num).keys());
 

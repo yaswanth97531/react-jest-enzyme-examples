@@ -1,6 +1,5 @@
 import React from 'react'
 import Counter from './Counter';
-import { exportAllDeclaration } from '@babel/types';
 
 let wrapper;
 

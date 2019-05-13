@@ -1,8 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Add from './components/Add/Add';
-import CounterList from './components/CounterList/CounterList';
+import Add from './Containers/Add/Add';
+import CounterList from './Containers/CounterList/CounterList';
+import List from './Containers/ItemsList/List';
+import Calculator from './Containers/Calculator/Calculator';
 
 function App() {
   return (
@@ -12,6 +13,10 @@ function App() {
         <hr/>
         <CounterList />
         <hr/>
+        {/* <List items={['one', 'two', 'three']} /> */}
+        <List items={[]} />
+        <hr />
+        <Calculator />
       </header>
     </div>
   );
