@@ -34,6 +34,13 @@ it('renders in table rows based on provided columns', () => {
    // tbody tag should have the same number of tr tags as data rows
    const rows = tbody.find('tr');
    expect(rows).toHaveLength(data.length);
+   // The table row should have ONLY one cell
+   const cell = row.find('td');
+   expect(cell).toHaveLength(1);
+   // The cell should have colSpan that is equal to the number of columns
+   expect(cell.prop('colSpan')).toEqual(cols.length);
+   // Check cell text
+   expect(cell.text()).toEqual('There is no data in this table');
    // Loop through each row and check the content
    rows.forEach((tr, rowIndex) => {
       const cells = tr.find('td');
