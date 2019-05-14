@@ -1,4 +1,7 @@
 import React from 'react';
+const renderEmptyState = cols =>
+   <td colSpan={cols.length}>There is no data in this table</td>
+;
 const DataTable = props => {
    return (
       <table>
@@ -10,13 +13,7 @@ const DataTable = props => {
             </tr>
          </thead>
          <tbody>
-            {props.rows.map(row =>
-               <tr key={row.id}>
-                   {props.cols.map(col =>
-                       <td key={col.name}>{row[col.name]}</td>
-                   )}
-               </tr>
-            )}
+            {props.data.length > 0 ? renderData(props.data, props.cols) : renderEmptyState(props.cols)}
          </tbody>
       </table>
   );
