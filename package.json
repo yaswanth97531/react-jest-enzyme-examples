@@ -13,6 +13,11 @@
     "test": "jest",
     "eject": "react-scripts eject"
   },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -32,6 +37,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react-app": "^9.0.0",
     "enzyme": "^3.9.0",
-    "enzyme-adapter-react-16": "^1.12.1"
+    "enzyme-adapter-react-16": "^1.12.1",
+    "enzyme-to-json": "^3.3.5"
   }
 }

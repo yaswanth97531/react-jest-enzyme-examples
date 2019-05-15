@@ -23,7 +23,8 @@ describe('<Calculator /> rendering', () => {
         numbers={wrapper.instance().state.numbers}
         operators={wrapper.instance().state.operators}
         setOperator={wrapper.instance().setOperator}
-        updateDisplay={wrapper.instance().updateDisplay} />
+        updateDisplay={wrapper.instance().updateDisplay}
+        handleKeyPress={wrapper.instance().handleKeyPress} />
     ])).toEqual(true)
   });
 

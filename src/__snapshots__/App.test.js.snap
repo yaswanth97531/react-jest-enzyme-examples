@@ -321,6 +321,21 @@ exports[`<App /> rendering should render correctly 1`] = `
         </div>
       </div>
     </div>
+    <hr />
+    <table>
+      <thead>
+        <tr />
+      </thead>
+      <tbody>
+        <tr>
+          <td
+            colSpan={0}
+          >
+            There is no data in this table
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </header>
 </div>
 `;

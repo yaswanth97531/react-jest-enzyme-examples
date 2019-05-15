@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders in table rows based on provided columns 1`] = `ShallowWrapper {}`;
