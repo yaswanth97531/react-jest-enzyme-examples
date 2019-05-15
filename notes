@@ -1,0 +1,5 @@
+//This command is to run for specific file
+yarn test --testPathPattern DataTable.test.jsx --watch
+
+//If you want to exclude a file while running a test 
+yarn test --testPathIgnorePatterns DataTable.test.jsx --watch
